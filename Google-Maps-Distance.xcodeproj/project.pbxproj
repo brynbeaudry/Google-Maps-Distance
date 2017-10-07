@@ -1,0 +1,669 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3C2FFC521F889D6500212ED9 /* PlacesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C2FFC511F889D6500212ED9 /* PlacesViewController.swift */; };
+		3C461C7F1F878D710012329F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C461C7E1F878D710012329F /* AppDelegate.swift */; };
+		3C461C811F878D710012329F /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C461C801F878D710012329F /* MapViewController.swift */; };
+		3C461C871F878D710012329F /* Google_Maps_Distance.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3C461C851F878D710012329F /* Google_Maps_Distance.xcdatamodeld */; };
+		3C461C891F878D710012329F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C461C881F878D710012329F /* Assets.xcassets */; };
+		3C461C8C1F878D710012329F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C461C8A1F878D710012329F /* LaunchScreen.storyboard */; };
+		3C461C971F878D710012329F /* Google_Maps_DistanceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C461C961F878D710012329F /* Google_Maps_DistanceTests.swift */; };
+		3C461CA21F878D710012329F /* Google_Maps_DistanceUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C461CA11F878D710012329F /* Google_Maps_DistanceUITests.swift */; };
+		3C461CB01F8798980012329F /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C461CAF1F8798970012329F /* CoreLocation.framework */; };
+		3CAD757E1F88B1C100473629 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3CAD757D1F88B1C100473629 /* Main.storyboard */; };
+		3CB272A91F898668004A4010 /* Distance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CB272A81F898668004A4010 /* Distance.swift */; };
+		B5B2F1F19028E9290C15540E /* Pods_Google_Maps_Distance.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49984789FC9580F34785E07F /* Pods_Google_Maps_Distance.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3C461C931F878D710012329F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3C461C731F878D700012329F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3C461C7A1F878D710012329F;
+			remoteInfo = "Google-Maps-Distance";
+		};
+		3C461C9E1F878D710012329F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3C461C731F878D700012329F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3C461C7A1F878D710012329F;
+			remoteInfo = "Google-Maps-Distance";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3C2FFC511F889D6500212ED9 /* PlacesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlacesViewController.swift; sourceTree = "<group>"; };
+		3C461C7B1F878D710012329F /* Google-Maps-Distance.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Google-Maps-Distance.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C461C7E1F878D710012329F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3C461C801F878D710012329F /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		3C461C861F878D710012329F /* Google_Maps_Distance.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Google_Maps_Distance.xcdatamodel; sourceTree = "<group>"; };
+		3C461C881F878D710012329F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3C461C8B1F878D710012329F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3C461C8D1F878D710012329F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3C461C921F878D710012329F /* Google-Maps-DistanceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Google-Maps-DistanceTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C461C961F878D710012329F /* Google_Maps_DistanceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Google_Maps_DistanceTests.swift; sourceTree = "<group>"; };
+		3C461C981F878D710012329F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3C461C9D1F878D710012329F /* Google-Maps-DistanceUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Google-Maps-DistanceUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C461CA11F878D710012329F /* Google_Maps_DistanceUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Google_Maps_DistanceUITests.swift; sourceTree = "<group>"; };
+		3C461CA31F878D710012329F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3C461CAF1F8798970012329F /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		3CAD757D1F88B1C100473629 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		3CB272A81F898668004A4010 /* Distance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Distance.swift; sourceTree = "<group>"; };
+		493615BFE580CBF8F51298FD /* Pods-Google-Maps-Distance.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Google-Maps-Distance.release.xcconfig"; path = "Pods/Target Support Files/Pods-Google-Maps-Distance/Pods-Google-Maps-Distance.release.xcconfig"; sourceTree = "<group>"; };
+		49984789FC9580F34785E07F /* Pods_Google_Maps_Distance.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Google_Maps_Distance.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEFB2CF643A4A1A2A8F2ADFC /* Pods-Google-Maps-Distance.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Google-Maps-Distance.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Google-Maps-Distance/Pods-Google-Maps-Distance.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3C461C781F878D710012329F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C461CB01F8798980012329F /* CoreLocation.framework in Frameworks */,
+				B5B2F1F19028E9290C15540E /* Pods_Google_Maps_Distance.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C461C8F1F878D710012329F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C461C9A1F878D710012329F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3C461C721F878D700012329F = {
+			isa = PBXGroup;
+			children = (
+				3C461C7D1F878D710012329F /* Google-Maps-Distance */,
+				3C461C951F878D710012329F /* Google-Maps-DistanceTests */,
+				3C461CA01F878D710012329F /* Google-Maps-DistanceUITests */,
+				3C461C7C1F878D710012329F /* Products */,
+				B3C75F86414709DC4A38000C /* Pods */,
+				585E9DA216585635E4231320 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3C461C7C1F878D710012329F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3C461C7B1F878D710012329F /* Google-Maps-Distance.app */,
+				3C461C921F878D710012329F /* Google-Maps-DistanceTests.xctest */,
+				3C461C9D1F878D710012329F /* Google-Maps-DistanceUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3C461C7D1F878D710012329F /* Google-Maps-Distance */ = {
+			isa = PBXGroup;
+			children = (
+				3C461C7E1F878D710012329F /* AppDelegate.swift */,
+				3C461C801F878D710012329F /* MapViewController.swift */,
+				3C2FFC511F889D6500212ED9 /* PlacesViewController.swift */,
+				3C461C881F878D710012329F /* Assets.xcassets */,
+				3C461C8A1F878D710012329F /* LaunchScreen.storyboard */,
+				3C461C8D1F878D710012329F /* Info.plist */,
+				3C461C851F878D710012329F /* Google_Maps_Distance.xcdatamodeld */,
+				3CAD757D1F88B1C100473629 /* Main.storyboard */,
+				3CB272A81F898668004A4010 /* Distance.swift */,
+			);
+			path = "Google-Maps-Distance";
+			sourceTree = "<group>";
+		};
+		3C461C951F878D710012329F /* Google-Maps-DistanceTests */ = {
+			isa = PBXGroup;
+			children = (
+				3C461C961F878D710012329F /* Google_Maps_DistanceTests.swift */,
+				3C461C981F878D710012329F /* Info.plist */,
+			);
+			path = "Google-Maps-DistanceTests";
+			sourceTree = "<group>";
+		};
+		3C461CA01F878D710012329F /* Google-Maps-DistanceUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3C461CA11F878D710012329F /* Google_Maps_DistanceUITests.swift */,
+				3C461CA31F878D710012329F /* Info.plist */,
+			);
+			path = "Google-Maps-DistanceUITests";
+			sourceTree = "<group>";
+		};
+		585E9DA216585635E4231320 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3C461CAF1F8798970012329F /* CoreLocation.framework */,
+				49984789FC9580F34785E07F /* Pods_Google_Maps_Distance.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B3C75F86414709DC4A38000C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CEFB2CF643A4A1A2A8F2ADFC /* Pods-Google-Maps-Distance.debug.xcconfig */,
+				493615BFE580CBF8F51298FD /* Pods-Google-Maps-Distance.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3C461C7A1F878D710012329F /* Google-Maps-Distance */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C461CA61F878D710012329F /* Build configuration list for PBXNativeTarget "Google-Maps-Distance" */;
+			buildPhases = (
+				DBB038CB905536A777634611 /* [CP] Check Pods Manifest.lock */,
+				3C461C771F878D710012329F /* Sources */,
+				3C461C781F878D710012329F /* Frameworks */,
+				3C461C791F878D710012329F /* Resources */,
+				9C7D44A60B7F3C9D2C3BFEFD /* [CP] Embed Pods Frameworks */,
+				B99D0186C400AAA5A81919CE /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Google-Maps-Distance";
+			productName = "Google-Maps-Distance";
+			productReference = 3C461C7B1F878D710012329F /* Google-Maps-Distance.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3C461C911F878D710012329F /* Google-Maps-DistanceTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C461CA91F878D710012329F /* Build configuration list for PBXNativeTarget "Google-Maps-DistanceTests" */;
+			buildPhases = (
+				3C461C8E1F878D710012329F /* Sources */,
+				3C461C8F1F878D710012329F /* Frameworks */,
+				3C461C901F878D710012329F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3C461C941F878D710012329F /* PBXTargetDependency */,
+			);
+			name = "Google-Maps-DistanceTests";
+			productName = "Google-Maps-DistanceTests";
+			productReference = 3C461C921F878D710012329F /* Google-Maps-DistanceTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3C461C9C1F878D710012329F /* Google-Maps-DistanceUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C461CAC1F878D710012329F /* Build configuration list for PBXNativeTarget "Google-Maps-DistanceUITests" */;
+			buildPhases = (
+				3C461C991F878D710012329F /* Sources */,
+				3C461C9A1F878D710012329F /* Frameworks */,
+				3C461C9B1F878D710012329F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3C461C9F1F878D710012329F /* PBXTargetDependency */,
+			);
+			name = "Google-Maps-DistanceUITests";
+			productName = "Google-Maps-DistanceUITests";
+			productReference = 3C461C9D1F878D710012329F /* Google-Maps-DistanceUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3C461C731F878D700012329F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "Bryn Beaudry";
+				TargetAttributes = {
+					3C461C7A1F878D710012329F = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+					3C461C911F878D710012329F = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 3C461C7A1F878D710012329F;
+					};
+					3C461C9C1F878D710012329F = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 3C461C7A1F878D710012329F;
+					};
+				};
+			};
+			buildConfigurationList = 3C461C761F878D700012329F /* Build configuration list for PBXProject "Google-Maps-Distance" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3C461C721F878D700012329F;
+			productRefGroup = 3C461C7C1F878D710012329F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3C461C7A1F878D710012329F /* Google-Maps-Distance */,
+				3C461C911F878D710012329F /* Google-Maps-DistanceTests */,
+				3C461C9C1F878D710012329F /* Google-Maps-DistanceUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3C461C791F878D710012329F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CAD757E1F88B1C100473629 /* Main.storyboard in Resources */,
+				3C461C8C1F878D710012329F /* LaunchScreen.storyboard in Resources */,
+				3C461C891F878D710012329F /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C461C901F878D710012329F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C461C9B1F878D710012329F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		9C7D44A60B7F3C9D2C3BFEFD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Google-Maps-Distance/Pods-Google-Maps-Distance-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B99D0186C400AAA5A81919CE /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Google-Maps-Distance/Pods-Google-Maps-Distance-resources.sh",
+				"${PODS_ROOT}/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle",
+				"${PODS_ROOT}/GooglePlacePicker/Frameworks/GooglePlacePicker.framework/Resources/GooglePlacePicker.bundle",
+				"${PODS_ROOT}/GooglePlaces/Frameworks/GooglePlaces.framework/Resources/GooglePlaces.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Google-Maps-Distance/Pods-Google-Maps-Distance-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DBB038CB905536A777634611 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Google-Maps-Distance-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3C461C771F878D710012329F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C2FFC521F889D6500212ED9 /* PlacesViewController.swift in Sources */,
+				3C461C811F878D710012329F /* MapViewController.swift in Sources */,
+				3C461C871F878D710012329F /* Google_Maps_Distance.xcdatamodeld in Sources */,
+				3C461C7F1F878D710012329F /* AppDelegate.swift in Sources */,
+				3CB272A91F898668004A4010 /* Distance.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C461C8E1F878D710012329F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C461C971F878D710012329F /* Google_Maps_DistanceTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C461C991F878D710012329F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C461CA21F878D710012329F /* Google_Maps_DistanceUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3C461C941F878D710012329F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3C461C7A1F878D710012329F /* Google-Maps-Distance */;
+			targetProxy = 3C461C931F878D710012329F /* PBXContainerItemProxy */;
+		};
+		3C461C9F1F878D710012329F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3C461C7A1F878D710012329F /* Google-Maps-Distance */;
+			targetProxy = 3C461C9E1F878D710012329F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3C461C8A1F878D710012329F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3C461C8B1F878D710012329F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3C461CA41F878D710012329F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3C461CA51F878D710012329F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3C461CA71F878D710012329F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CEFB2CF643A4A1A2A8F2ADFC /* Pods-Google-Maps-Distance.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KC6X8H2M7L;
+				INFOPLIST_FILE = "Google-Maps-Distance/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ca.bbeau.Google-Maps-Distance";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3C461CA81F878D710012329F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 493615BFE580CBF8F51298FD /* Pods-Google-Maps-Distance.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KC6X8H2M7L;
+				INFOPLIST_FILE = "Google-Maps-Distance/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ca.bbeau.Google-Maps-Distance";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3C461CAA1F878D710012329F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KC6X8H2M7L;
+				INFOPLIST_FILE = "Google-Maps-DistanceTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ca.bbeau.Google-Maps-DistanceTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Google-Maps-Distance.app/Google-Maps-Distance";
+			};
+			name = Debug;
+		};
+		3C461CAB1F878D710012329F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KC6X8H2M7L;
+				INFOPLIST_FILE = "Google-Maps-DistanceTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ca.bbeau.Google-Maps-DistanceTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Google-Maps-Distance.app/Google-Maps-Distance";
+			};
+			name = Release;
+		};
+		3C461CAD1F878D710012329F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KC6X8H2M7L;
+				INFOPLIST_FILE = "Google-Maps-DistanceUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ca.bbeau.Google-Maps-DistanceUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Google-Maps-Distance";
+			};
+			name = Debug;
+		};
+		3C461CAE1F878D710012329F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KC6X8H2M7L;
+				INFOPLIST_FILE = "Google-Maps-DistanceUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ca.bbeau.Google-Maps-DistanceUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Google-Maps-Distance";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3C461C761F878D700012329F /* Build configuration list for PBXProject "Google-Maps-Distance" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C461CA41F878D710012329F /* Debug */,
+				3C461CA51F878D710012329F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3C461CA61F878D710012329F /* Build configuration list for PBXNativeTarget "Google-Maps-Distance" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C461CA71F878D710012329F /* Debug */,
+				3C461CA81F878D710012329F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3C461CA91F878D710012329F /* Build configuration list for PBXNativeTarget "Google-Maps-DistanceTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C461CAA1F878D710012329F /* Debug */,
+				3C461CAB1F878D710012329F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3C461CAC1F878D710012329F /* Build configuration list for PBXNativeTarget "Google-Maps-DistanceUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C461CAD1F878D710012329F /* Debug */,
+				3C461CAE1F878D710012329F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		3C461C851F878D710012329F /* Google_Maps_Distance.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				3C461C861F878D710012329F /* Google_Maps_Distance.xcdatamodel */,
+			);
+			currentVersion = 3C461C861F878D710012329F /* Google_Maps_Distance.xcdatamodel */;
+			path = Google_Maps_Distance.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 3C461C731F878D700012329F /* Project object */;
+}
